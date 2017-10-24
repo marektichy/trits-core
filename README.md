@@ -44,7 +44,7 @@ Some terms explained first:
 
 **Coin** – a single token used in the game
 
-**Nominal** – the nominal value of one coin in IOTAs. The nominal is set at the very beginning of each game
+**Nominal** – the nominal value of one coin in IOTAs. The nominal is set at the very beginning of each game by the amount of IOTAs sent with the first transaction
 
 **Total** – the total value of all the coins on the table.
 
