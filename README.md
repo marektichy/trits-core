@@ -1,8 +1,7 @@
 # Trits Core
 
-The trits-core npm package contains the TritsGame class which implements <a href="https://trits.win/rules" target="_blank">The Trits game rules</a>. This game:
+The trits-core npm package contains the TritsGame class which implements <a href="http://trits.win/rules" target="_blank">The Trits game rules</a>. This game:
 
-<img src="https://ia601506.us.archive.org/32/items/example_20171018/example.png"/>
 
 ## How to install
 
@@ -23,7 +22,8 @@ The Trits is a fully transparent, <a href="https://en.wikipedia.org/wiki/Zero-su
 
 The game itself was conceived as a humble honor to the memory of <a href="https://www.youtube.com/watch?v=oM1SflhJDoc" target="_blank">John Forbes Nash Jr</a> and is a cross-breed between a <a href="https://en.wikipedia.org/wiki/Medal_game#Pusher_gamex_type" target="_blank">coin pusher</a> and a <a href="https://en.wikipedia.org/wiki/Fidget_spinner" target="_blank">fidget spinner</a>.
 
-<img src="https://archive.org/download/spinner_middle/spinner_middle.png"/>
+<a href = "https://ia601506.us.archive.org/32/items/example_20171018/example.png"><img src="https://archive.org/download/spinner_middle/spinner_middle.png"/></a>
+
 
 At the beginning, there is a pile of coins in the middle of the spinner. The ultimate aim of the game is to disturb the spinner balance by placing a coin on the spinner arms. However, each coin placement is determined by a throw of a “three-sided dice”.
 
