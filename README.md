@@ -1,6 +1,6 @@
 # Trits Core
 
-The trits-core npm package contains the TritsGame class which implements <a href="http://trits.win/rules" target="_blank">The Trits game rules</a>. This game:
+The trits-core npm package contains the TritsGame class which implements <a href="http://trits.win/rules" target="_blank">The Trits game rules</a>.
 
 
 ## How to install
