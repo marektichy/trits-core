@@ -2,7 +2,7 @@
   "name": "trits-core",
   "description": "The Trits - the core class which implementins The Trits game rules",
   "repository": "git://github.com/kubrt-d/trits-core.git",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "license": "MIT",
   "main": "lib/trits-core.js",
   "dependencies": {},
