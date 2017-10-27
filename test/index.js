@@ -4,6 +4,8 @@ var path = require('path');
 var TritsTriangle = require(path.join(__dirname, '..', 'lib/trits-triangle.js'));
 var TritsGame = require(path.join(__dirname, '..', 'lib/trits-core.js'));
 
+const TRITS_GAME_BANK_ID = 'BANK99999999999999999999999999999999999999999999999999999999999999999999999999999';
+const TRITS_GAME_FEE_ID = 'FEES99999999999999999999999999999999999999999999999999999999999999999999999999999';
 
 describe('class TritsGame', function(){
     describe('TritsGame.constructor()', function(){
@@ -76,7 +78,7 @@ describe('class TritsGame', function(){
             var rewards = t.getRewardsTable();
             assert.equal(status.status, 1);
             assert.equal(total, 40);
-            assert.equal(rewards['BANK'], 40);
+            assert.equal(rewards[TRITS_GAME_BANK_ID], 40);
         })
     });
     describe('Rewards - Multiplayer on a fixed dice sequence', function(){
@@ -107,7 +109,7 @@ describe('class TritsGame', function(){
             var rewards = t.getRewardsTable();
             assert.equal(status.status, 1);
             assert.equal(total, 160);
-            assert.equal(rewards['BANK'], undefined );
+            assert.equal(rewards[TRITS_GAME_BANK_ID], undefined );
             assert.equal(rewards['Neo'], 30 );
             assert.equal(rewards['Tank'], 40 );
         })
@@ -130,9 +132,9 @@ describe('class TritsGame', function(){
             var rewards = t.getRewardsTable();
             assert.equal(status.status, 1);
             assert.equal(total, 50);
-            assert.equal(rewards['BANK'], undefined );
+            assert.equal(rewards[TRITS_GAME_BANK_ID], undefined );
             assert.equal(rewards['Neo'], 18 );
-            assert.equal(rewards['FEE'], 2 );
+            assert.equal(rewards[TRITS_GAME_FEE_ID], 2 );
             assert.equal(rewards['Trinity'], 30 );
         })
     });
@@ -163,6 +165,24 @@ describe('class TritsTriangle', function(){
             var t = new TritsTriangle (0, 0, 0);
             t.hitSide('F'); t.hitSide('G'); t.hitSide('F');
             assert.equal(t.getWinningSide(), 'F');
+        })
+    });
+
+    describe('Restore from saved data', function(){
+        it('Should restore the object correctly from saved data', function(){
+            var tg = new TritsGame('koko');
+            tg.restoreSaved({
+                board: 'LAGOS9999999999999999999999999999999999999999999999999999999999999999999999999999',
+                bets: { I: 'NEO', F: ['Trinity'], S: ['Neo','Neo'], G: [] },
+                status: 0,
+                flip_treshold: 3,
+                nominal: 20,
+                triangle: { sides: { F: 1, S: 2, G: 0 } },
+                bonus: 5,
+                last_player: 'Neo' }
+            );
+            assert.equal(tg.getTotal(), 180);
+            assert.equal(tg.triangle.getWinningSide(), 'S');
         })
     });
 });
