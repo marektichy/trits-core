@@ -5,7 +5,9 @@
   "version": "1.2.1",
   "license": "MIT",
   "main": "lib/trits-core.js",
-  "dependencies": {},
+  "dependencies": {
+    "moment": "^2.19.1"
+  },
   "devDependencies": {
     "mocha": "2.x"
   }
