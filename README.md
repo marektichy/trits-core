@@ -64,7 +64,7 @@ Anybody can start (seed) the game by placing a single coin in the middle (i.e. s
 
 ### Bonus
 
-The moment a new game is seeded, the bank is obliged to hexatruple (i.e. put another five coins) on the **I** spot. This happens always, unless the Bank balance is too low. The Bank balance is publicly announced.
+The moment a new game is seeded, the bank is obliged to add four or five coins on the **I** spot. This happens always, unless the Bank balance is too low. The Bank balance is publicly announced.
 
 ### Playing the game
 
