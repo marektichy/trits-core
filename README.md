@@ -72,7 +72,7 @@ You play the game by throwing your coins into it (i.e. sending the IOTA transact
 
 ### Finishing the game
 
-The game is finished at the very moment the last coin which causes the 3-coin difference is placed on the spinner. The side on which the last coin has been placed determines the winning arm.
+The game is finished at the very moment the last coin which causes the **3-coin** difference is placed on the spinner. The side on which the last coin has been placed determines the winning arm.
 
 Note: A game can come to an end also by expiring – games not finished within 24 hours will expire and all the transactions are fully reimbursed.
 
