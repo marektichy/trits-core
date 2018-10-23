@@ -4,9 +4,6 @@ var path = require('path');
 var TritsTriangle = require(path.join(__dirname, '..', 'lib/trits-triangle.js'));
 var TritsGame = require(path.join(__dirname, '..', 'lib/trits-core.js'));
 
-const TRITS_GAME_BANK_ID = 'BANK99999999999999999999999999999999999999999999999999999999999999999999999999999';
-const TRITS_GAME_FEE_ID = 'FEES99999999999999999999999999999999999999999999999999999999999999999999999999999';
-
 describe('class TritsGame', function(){
     describe('TritsGame.constructor()', function(){
         it('Should initialize game state to -1, total should be 0', function(){
