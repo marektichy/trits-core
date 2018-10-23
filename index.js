@@ -2,4 +2,4 @@
 
 var TritsGame = require('./lib/trits-core.js');
 
-module.exports TritsGame;
+module.exports; TritsGame;
