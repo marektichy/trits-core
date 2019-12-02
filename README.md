@@ -25,7 +25,7 @@ The game itself was conceived as a humble honor to the memory of <a href="https:
 <a href = "https://ia601506.us.archive.org/32/items/example_20171018/example.png"><img src="https://archive.org/download/spinner_middle/spinner_middle.png"/></a>
 
 
-At the beginning, there is a pile of coins in the middle of the spinner. The ultimate aim of the game is to disturb the spinner balance by placing a coin on the spinner arms. However, each coin placement is determined by a throw of a “three-sided dice”.
+Once the game has been started, there is a pile of coins in the middle of the spinner. The ultimate aim of the game is to disturb the spinner balance by placing a coin on the spinner arms. However, each coin placement is determined by a throw of a “three-sided dice”.
 
 <img src="https://archive.org/download/trits_logo_middle/trits_logo_middle.png"/>
 
@@ -58,7 +58,7 @@ Some terms explained first:
 
 ### Staring the game
 
-Anybody can start (seed) the game by placing a single coin in the middle (i.e. sending the first IOTA transaction to the empty game address). This sets the nominal and starts the game. The coin will be placed on the **I** spot in the middle.
+Anybody can start/seed the game by placing a single coin in the middle (i.e. sending the first IOTA transaction to the empty game address). This sets the nominal and starts the game. The coin will be placed on the **I** spot in the middle.
 
 ### Bonus
 
@@ -76,16 +76,18 @@ Note: A game can come to an end also by expiring – games not finished within 2
 
 ### Distributing the winnings
 
-1\) If the winning arm is **G**, the entire total goes to the **Bank**
+1\) If the winning arm belongs to the bank, the entire total goes to the **Bank**
 
-2\) Triple nominal is send to the seeded. 
+**OR**
 
-3\) The rest goes to the winner
+2\) The triple of the nominal is send to the seeder
+
+3\) The rest on the table goes to the winner
 
 The Bank and the Dashboard
 ==========================
 
-The Trits game is fully transparent - meaning that each game can be completely backtracked by inspecting the IOTA Tangle. The assignment of the Bank's arm and dice throws are done in a <a href="https://en.wikipedia.org/wiki/Provably_fair">provably fair</a> manner .
+The Trits game is fully transparent - meaning that each game can be completely backtracked by inspecting the IOTA Tangle. The assignment of the Bank's arm and dice throws are done in a <a href="https://en.wikipedia.org/wiki/Provably_fair">provably fair</a> manner.
 
 The Bank maintains the incentives – it keeps the game going. It’s not there to make a profit.
 
@@ -94,10 +96,10 @@ There are always 23 (John Nash's favourite prime number) tables named after bigg
 Good Luck
 =======
 
-Your odds of winning in The Trits game are the theoretical maximum. The house edge is zero, while the wins at the individual games can be quite high. Even if you loose, just initiate a new game and watch - you have got a 66% chance of tripling your bet. That's **33% profit guaranteed** - a money printing machine dream come true :-). 
+Your odds of winning in The Trits game are the theoretical maximum. The house edge is zero, while the wins at the individual games can be quite high. Even if you loose, just initiate a new game and watch - you have got a 66% chance of tripling your bet. That's **33% profit guaranteed***  - a money printing machine dream come true :-). 
 
 If you have to gamble, this is your safest home.
 
-
+*(when done long enough)
 
 
