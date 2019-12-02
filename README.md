@@ -66,7 +66,7 @@ The moment a new game is seeded, the bank is obliged to add four or five coins o
 
 ### Playing the game
 
-You play the game by throwing your coins into it (i.e. sending the IOTA transaction with the same nominal value to the game address). The game runs **until** the difference between the sides with the lowest and highest number of coins reaches exactly **3** (three) coins**.**
+You play the game by throwing your coins into it (i.e. sending the IOTA transaction with the same nominal value to the game address). The game runs **until** the difference between the sides with the lowest and highest number of coins reaches exactly **3** (three) coins.
 
 ### Finishing the game
 
