@@ -100,6 +100,6 @@ Your odds of winning in The Trits game are the theoretical maximum. The house ed
 
 If you have to gamble, this is your safest home.
 
-*(when done long enough)
+* *(when done long enough)*
 
 
